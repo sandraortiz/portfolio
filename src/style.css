@@ -1,36 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Notable');
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+.menu{
+  font-size: 20px
+
+}
+i {font-size: 70px
+}
+h1{
+  display: block;
+  margin: 11px 0 17px 0;
+  font-size: 90px;
+  line-height: 90px;
+  color: #f1ebe5;
+  text-shadow: 0 13.36px 8.896px #42403d,0 -2px 1px #fff;
+  letter-spacing: -4px;
+}
+h1{
+  font-family: "Paytone One";
+  color: #202020;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
+.title {
+  color: #f2b223;
+  font-family: 'Anton', sans-serif;
+  font-size: 60px
+}
+
+.titleprincipal {
+  color: white;
+  font-family:  'Notable', sans-serif;
+  font-size: 50px
+}
+.title2{
+  color: #f2b223;
+}
+.conte {
+  background-color: #dec8b4;
+}
+
+.list{
+  list-style-type: none
+
+}
+
+.hola{
+
+    width: 200px;
+    height: 120px;
+
+}
 body {
-      position: relative;
-      background-color: #dddddd   ;
-    }
 
-    * {
-      box-sizing: border-box;
-    }
+  position: relative;
+  margin: 0;
+  padding: 0;
+  color: white;
+  /* background-image:  linear-gradient(#e1e8bf,#4e757f,#574e4d);  */
+  font-size: 20px;
+}
 
-    .navbar {
-      background-color: rgb(66, 50, 50);
-      opacity: 0.9;
-      top: 0px;
-      color: white
-    }
+* {
+  box-sizing: border-box;
+}
 
-    .bg-img {
-      background-image: url("../imagenes/code-coding-computer-270373.jpg");
-      min-height: 300px;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
+.navbar {
+  background-color: rgb(12, 12, 24);
+  opacity: 0.8;
+  top: 0px;
+  font-size: 20px;
+  color: white
+}
 
-    }
+#box1 {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../imagenes/abstract-art-artistic-459642.jpg");
+  background-size: cover;
+  display: table;
+  
+}
 
-    .navbar a {
-      color: #ffff;
+#box2 {
+  height: 100vh;
+  width: 100%;
 
-    }
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
 
-    .content {
-      position: absolute;
-      margin: 120px;
-      width: auto;
-    }
+footer {
+  background-color: black;
+}
+
+#box3 {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(37, 38, 39);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+#box5 {
+  height: 40vh;
+  width: 100%;
+background-color: #202020;
+
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: arial black;
+  font-size: 50px;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+
+}
+
+img {
+  text-align: right;
+  display: block;
+  margin: 0 px;
+}
+
+
+
+.icons {
+  background: #202020;
+  padding: 10px 0;
+  text-align: center;
+}
+.icons  a  {
+  color: #70726F;
+  font-size: 20px;
+  padding: 10px;
+  border-right: 1px solid #70726F;
+  transition: all .5s ease;
+}
+.icons  a:first-child {
+  border-left: 1px solid #70726F;
+}
+.icons  a:hover {
+  color: white;
+}
