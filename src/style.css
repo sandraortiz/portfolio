@@ -7,21 +7,9 @@
 }
 i {font-size: 70px
 }
-h1{
-  display: block;
-  margin: 11px 0 17px 0;
-  font-size: 90px;
-  line-height: 90px;
-  color: #f1ebe5;
-  text-shadow: 0 13.36px 8.896px #42403d,0 -2px 1px #fff;
-  letter-spacing: -4px;
-}
-h1{
-  font-family: "Paytone One";
-  color: #202020;
-  text-transform: uppercase;
-  letter-spacing: -2px;
-}
+
+
+
 .title {
   color: #f2b223;
   font-family: 'Anton', sans-serif;

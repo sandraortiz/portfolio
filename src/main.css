@@ -1,0 +1,178 @@
+
+.menu{
+  font-size: 20px
+
+}
+i {font-size: 70px
+}
+
+
+
+.title {
+  color: #f2b223;
+  font-family: 'Anton', sans-serif;
+  font-size: 60px
+}
+
+.titleprincipal {
+  color: white;
+  font-family:  'Notable', sans-serif;
+  font-size: 50px
+}
+.title2{
+  color: #f2b223;
+}
+.conte {
+  background-color: #dec8b4;
+}
+
+.list{
+  list-style-type: none
+
+}
+
+.hola{
+
+    width: 200px;
+    height: 120px;
+
+}
+body {
+
+  position: relative;
+  margin: 0;
+  padding: 0;
+  color: white;
+  /* background-image:  linear-gradient(#e1e8bf,#4e757f,#574e4d);  */
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: rgb(12, 12, 24);
+  opacity: 0.8;
+  top: 0px;
+  font-size: 20px;
+  color: white
+}
+
+#box1 {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../imagenes/abstract-art-artistic-459642.jpg");
+  background-size: cover;
+  display: table;
+  
+}
+
+#box2 {
+  height: 100vh;
+  width: 100%;
+
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+footer {
+  background-color: black;
+}
+
+#box3 {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(37, 38, 39);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+#box5 {
+  height: 40vh;
+  width: 100%;
+background-color: #202020;
+
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: arial black;
+  font-size: 50px;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+
+}
+
+img {
+  text-align: right;
+  display: block;
+  margin: 0 px;
+}
+
+
+
+.icons {
+  background: #202020;
+  padding: 10px 0;
+  text-align: center;
+}
+.icons  a  {
+  color: #70726F;
+  font-size: 20px;
+  padding: 10px;
+  border-right: 1px solid #70726F;
+  transition: all .5s ease;
+}
+.icons  a:first-child {
+  border-left: 1px solid #70726F;
+}
+.icons  a:hover {
+  color: white;
+}/* .container {margin:7em 0;} */
+* {
+  box-sizing: border-box;
+}
+
+h1{
+  font-family: arial black;
+  font-size: 50px;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+@media (min-width: 768px) {  
+  h1  {font-size:4em;}
+}
+
+#hero{
+  background-image: url("../imagenes/galaxy-infinity-milky-way-110854.jpg");
+  z-index: -10;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top: 0 ;
+  bottom: 0;
+  height: 100vh;
+  display: table;
+  width: 100%;
+}
+#hero-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  top : 0 ;
+bottom: 0 ;
+height: 100%;
+width: 100%;
+z-index: -5;
+}
