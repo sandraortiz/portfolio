@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Metrophobic');
 
-
+body{
+  color: white;
+}
 
 h1 {
   font-family: arial black;
@@ -17,6 +19,8 @@ h1 {
 .titulo2 {
   font-size: 40px;
   font-family: 'Metrophobic', sans-serif;
+ 
+
 }
 body {
   margin: 0px;
@@ -24,7 +28,6 @@ body {
 }
 .hero {
   background-image: url("../imagenes/apple-black-and-white-black-and-white-169573.jpg");
-
   background-size: cover;
   background-position: center center;
   position: relative;
@@ -38,7 +41,7 @@ body {
 .hero-overlay {
   display: table;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 1, 1, 0.2);
   top: 0;
   bottom: 0;
   height: 100%;
@@ -48,19 +51,28 @@ body {
 .box3 {
   height: 100vh;
   width: 100%;
-  background-color:  rgb(223,223,223);
+  background-color:  rgb(90, 93, 97);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+.box4 {
+  height: 100vh;
+  width: 100%;
+  background-color:  rgb(90, 93, 97);
   background-size: cover;
   display: table;
   background-attachment: fixed;
 }
 .navbar {
-  background-color: black;
-  opacity: 0.5;
+  background-color: rgba(0, 5, 5, 0.4);
+
   top: 0px;
   font-size: 20px;
   color: white
 }
-i {font-size: 70px ;
+.skill {font-size: 70px ;
   color: white;
 }
 .icons {
@@ -68,9 +80,10 @@ i {font-size: 70px ;
   padding: 10px 0;
   text-align: center;
 }
+
 .icons  a  {
   color: #70726F;
-  font-size: 20px;
+  font-size: 30px;
   padding: 10px;
   border-right: 1px solid #70726F;
   transition: all .5s ease;
@@ -93,8 +106,7 @@ background-color: #202020;
 
 .heros {
   background-image: url("../imagenes/apple-black-and-white-black-and-white-169573.jpg");
-
-  background-size: cover;
+background-size: cover;
   background-position: center center;
   position: relative;
   top: 0;
