@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Metrophobic');
 
 body{
-  color: white;
+  color: black;
 }
 
 h1 {
@@ -41,7 +41,7 @@ body {
 .hero-overlay {
   display: table;
   position: absolute;
-  background-color: rgba(0, 1, 1, 0.2);
+  background-color: rgba(0, 1, 1, 0.6);
   top: 0;
   bottom: 0;
   height: 100%;
@@ -51,7 +51,7 @@ body {
 .box3 {
   height: 100vh;
   width: 100%;
-  background-color:  rgb(90, 93, 97);
+  background-color:  #e4e3e3e1;
   background-size: cover;
   display: table;
   background-attachment: fixed;
@@ -60,7 +60,7 @@ body {
 .box4 {
   height: 100vh;
   width: 100%;
-  background-color:  rgb(90, 93, 97);
+  background-color:  #f8f8f8;
   background-size: cover;
   display: table;
   background-attachment: fixed;
