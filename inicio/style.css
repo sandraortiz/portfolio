@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Metrophobic');
+  #box1 {
+      height: 100vh;
+      width: 100%;
+      background-image: url("../imagenes/pexels-photo-169573.jpeg");
+      background-size: cover;
+      display: table;
+      background-attachment: fixed;
+      z-index: -10;
+      position: relative;
+  }
+  #box5 {
+      background-color: rgb(82, 85, 81) ;
+   
+    /* background-image: url("../imagenes/pexels-photo-169573.jpeg");
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    z-index: -10;
+    position: relative; */
+}
+
+
+
+
+a {
+text-decoration: none !important
+}
+
+
+.icons  a  {
+color: #70726F;
+font-size: 30px;
+padding: 10px;
+transition: all .5s ease;
+font-family: 'Metrophobic', sans-serif;
+}
+
+.email {
+    font-size: 25px;
+padding: 10px;
+color: #70726F;
+
+font-family: 'Metrophobic', sans-serif;
+
+
+}
+.icons  a:hover {
+color: white;
+
+}
+
+  .skill {font-size: 60px ;
+color: white;
+}
+  body {
+      margin: 0;
+      padding: 0;
+      color: black
+  }
+  .navbar {
+background-color: rgba(0, 5, 5, 0.4);
+
+top: 0px;
+font-size: 20px;
+color: white
+}
+
+
+  #box2 {
+      height: 100vh;
+      width: 100%;
+      background-size: cover;
+      display: table;
+      background-attachment: fixed;
+      background-color: #f8f8f8;
+      
+  }
+
+ 
+
+ 
+
+  #box4 {
+      height: 50vh;
+      width: 100%;
+      background-color: rgb(32, 32, 32);
+      background-size: cover;
+      display: table;
+      background-attachment: fixed;
+  }
+
+
+
+
+  .titulo {
+      font-family: arial black;
+      font-size: 50px;
+      color:white;
+      margin: 0px;
+      text-align: center;
+      display: table-cell;
+      vertical-align: middle;
+      
+      font-family: 'Bowlby One SC', cursive;
+
+  }
+
+  .titulo2 {
+      font-size: 40px;
+      font-family: 'Metrophobic', sans-serif;
+
+
+  }
+  #hola {
+      
+      display: table;
+position: absolute;
+background-color: rgba(0, 1, 1, 0.6);
+top: 0;
+bottom: 0;
+height: 100%;
+width: 100%;
+z-index: -5;
+  }
+
+
+  .navbar a {
+      color: white;
+      font-size: 19px ;
+ }
+  .about{
+      font-size: 20px ;
+      font-family: 'Metrophobic', sans-serif;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .skill {font-size: 30px ;
+        color: white;
+        }
+        .titulo {
+            font-family: arial black;
+            font-size: 30px;
+            color:white;
+            margin: 0px;
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+            
+            font-family: 'Bowlby One SC', cursive;
+      
+        }
+      
+        .titulo2 {
+            font-size: 20px;
+            font-family: 'Metrophobic', sans-serif;
+      
+      
+        }
+     
+      
+
+}
