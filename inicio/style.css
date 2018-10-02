@@ -3,22 +3,14 @@
   #box1 {
       height: 100vh;
       width: 100%;
-      background-image: url("../imagenes/apple-black-and-white-black-and-white-169573.jpg");
+      background-image: url("../imagenes/pexels-photo-169573.jpeg");
       background-size: cover;
       display: table;
       background-attachment: fixed;
       z-index: -10;
       position: relative;
   }
- #box3 {
-      height: 100vh;
-      width: 100%;
-      background-image: url("../imagenes/apple-black-and-white-black-and-white-169573-min1.jpg");
-      background-size: cover;
-      display: table;
-      background-attachment: fixed;
 
-  }
 
 
 
@@ -32,10 +24,21 @@ color: #70726F;
 font-size: 30px;
 padding: 10px;
 transition: all .5s ease;
+font-family: 'Metrophobic', sans-serif;
 }
 
+.email {
+    font-size: 30px;
+padding: 10px;
+color: #70726F;
+
+font-family: 'Metrophobic', sans-serif;
+
+
+}
 .icons  a:hover {
 color: white;
+
 }
 
   .skill {font-size: 60px ;
@@ -112,8 +115,9 @@ width: 100%;
 z-index: -5;
   }
   .navbar a {
-      color: white
-  }
+      color: white;
+      font-size: 19px ;
+ }
   .about{
       font-size: 20px ;
       font-family: 'Metrophobic', sans-serif;
