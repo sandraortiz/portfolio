@@ -31,16 +31,16 @@ text-decoration: none !important
 
 .icons  a  {
 color: #70726F;
-font-size: 30px;
-padding: 10px;
+font-size: 25px;
+/* padding: 10px; */
 transition: all .5s ease;
 font-family: 'Metrophobic', sans-serif;
 }
 
 .email {
     font-size: 25px;
-padding: 10px;
 color: #70726F;
+transition: all .5s ease;
 
 font-family: 'Metrophobic', sans-serif;
 
@@ -159,6 +159,18 @@ z-index: -5;
       
         }
      
-      
-
+        .email {
+            font-size: 20px;
+        color: #70726F;
+          font-family: 'Metrophobic', sans-serif;
+        
+        
+        }
+        .icons  a  {
+            color: #70726F;
+            font-size: 20px;
+            /* padding: 10px; */
+            transition: all .5s ease;
+            font-family: 'Metrophobic', sans-serif;
+            }
 }
